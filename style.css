@@ -141,14 +141,14 @@
     display: none;
 }
 .service:hover{
-    background-color: rgb(243, 191, 155);
+    background-color: rgba(226, 193, 31, 0.515);
     
 }
 .processing:hover{
-    background-color:rgb(243, 191, 155);
+    background-color:rgba(226, 193, 31, 0.515);
 }
 .agriculture:hover{
-    background-color: rgb(243, 191, 155);
+    background-color: rgba(226, 193, 31, 0.515);
 }
 .service:hover p{
     display: block;
