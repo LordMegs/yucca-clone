@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.background{
+    
+    background-image: url( https://images.wallpaperscraft.com/image/single/coffee_beans_coffee_cup_198851_2560x1440.jpg );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -20;
+    opacity: 0.67;
+}
+
+.header-main{   
+    width: 100vw;
+    height: 85px;
+    /* background-color: red; */
+    border-bottom:  1px solid #707767 ;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    margin-left: 180px;
+}
+.logo>img{
+
+    width: 180px;
+               
+}
+
+.nav{
+    width: 820px;
+}
+
+
+.list_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;    
+    
+}
+
+.list_nav{
+    list-style: none;
+}
+
+.list_nav>li>a{
+    text-decoration: none;
+    color: #000;
+}
+
+.credit-p{
+    color: #707767;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.header-main>i{
+    color:#707767;
+
+
+}
+
+
+.header-icon-right-button{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #1d1d1b00;
+    border: 1px solid #1D1D1B;
+    border-radius: 20%;
+}
+
+.header-icon-right-button>i{
+    color: #1D1D1B;
+    font-size: 15px;
+}
+
+
+.hero-p{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-p>p{
+    font-size: 50px;
+
+}
