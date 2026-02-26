@@ -96,3 +96,79 @@
     font-size: 50px;
 
 }
+
+
+.main-hero{
+    margin-left: 180px;
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+.service{
+     height: 300px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 15px;
+     backdrop-filter: blur(20px);
+}
+.processing{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.agriculture{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.service p{
+    display: none;
+}
+.processing p{
+    display: none;
+}
+.agriculture p{
+    display: none;
+}
+.service:hover{
+    background-color: rgb(243, 191, 155);
+    
+}
+.processing:hover{
+    background-color:rgb(243, 191, 155);
+}
+.agriculture:hover{
+    background-color: rgb(243, 191, 155);
+}
+.service:hover p{
+    display: block;
+}
+.agriculture:hover p{
+    display: block;
+}
+.processing:hover p{
+    display: block;
+}
+.service:hover h1{
+    display: none;
+}
+.processing:hover h1{
+    display: none;
+}
+.agriculture:hover h1{
+    display: none;
+}
+.heading{
+    margin-left: 180px;
+    font-size: 100px;
+}
